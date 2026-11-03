@@ -20,3 +20,22 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# .NET build outputs
+**/bin/
+**/obj/
+**/TestResults/
+
+# Node/npm
+**/node_modules/
+**/.angular/
+**/dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# Local secrets and settings
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+*.user
+*.suo
